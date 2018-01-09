@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A97E8949F74825AFC998527B /* Pods_EdaDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886A71DED28A64E4D3327794 /* Pods_EdaDev.framework */; };
+		DC01B1E71FFD51B8008BEB9E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC01B1E91FFD51B8008BEB9E /* Localizable.strings */; };
+		DC01B1F61FFD52B3008BEB9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC01B1F81FFD52B3008BEB9E /* LaunchScreen.storyboard */; };
+		DC11E4F32000E12400921AC9 /* ShoppingListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11E4EE2000E12400921AC9 /* ShoppingListConfigurator.swift */; };
+		DC11E4F42000E12400921AC9 /* ShoppingListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11E4EF2000E12400921AC9 /* ShoppingListInteractor.swift */; };
+		DC11E4F52000E12400921AC9 /* ShoppingListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11E4F02000E12400921AC9 /* ShoppingListPresenter.swift */; };
+		DC11E4F62000E12400921AC9 /* ShoppingListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11E4F12000E12400921AC9 /* ShoppingListRouter.swift */; };
+		DC11E4FA2000E18900921AC9 /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11E4F82000E18900921AC9 /* ShoppingListViewController.swift */; };
+		DC11E5012000E2C400921AC9 /* ShoppingListInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11E5002000E2C400921AC9 /* ShoppingListInteractorIO.swift */; };
+		DC11E5032000EB4400921AC9 /* ShoppingListViewIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11E5022000EB4400921AC9 /* ShoppingListViewIO.swift */; };
+		DC11E5052000F77100921AC9 /* ShoppingListRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11E5042000F77100921AC9 /* ShoppingListRouterInput.swift */; };
+		DC11E5092001090B00921AC9 /* ProductsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11E5082001090B00921AC9 /* ProductsService.swift */; };
+		DC11E50B2001092E00921AC9 /* ProductServiceImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11E50A2001092E00921AC9 /* ProductServiceImp.swift */; };
+		DC8AA3331FFEE11600A44FE5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8AA3321FFEE11600A44FE5 /* Product.swift */; };
+		DCAF4ED820002A2500852D60 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4ED720002A2500852D60 /* ProductCell.swift */; };
+		DCAF4EDC200037FD00852D60 /* AddProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4EDB200037FD00852D60 /* AddProductCell.swift */; };
+		DCAF4EDE2000382400852D60 /* ShoppingProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4EDD2000382400852D60 /* ShoppingProductCell.swift */; };
+		DCAF4EF92000DA5800852D60 /* SearchProductConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4EF12000DA5800852D60 /* SearchProductConfigurator.m */; };
+		DCAF4EFA2000DA5800852D60 /* SearchProductInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4EF32000DA5800852D60 /* SearchProductInteractor.m */; };
+		DCAF4EFB2000DA5800852D60 /* SearchProductPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4EF52000DA5800852D60 /* SearchProductPresenter.m */; };
+		DCAF4EFC2000DA5800852D60 /* SearchProductRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4EF72000DA5800852D60 /* SearchProductRouter.m */; };
+		DCAF4F022000DC1B00852D60 /* SearchProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4F002000DC1B00852D60 /* SearchProductViewController.m */; };
+		DCC26D9F2002525800D1ABB6 /* RealmRepositoriesProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC26D9E2002525800D1ABB6 /* RealmRepositoriesProtocols.swift */; };
+		DCC26DA22002688300D1ABB6 /* ProductRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC26DA12002688300D1ABB6 /* ProductRealm.swift */; };
+		DCC26DA4200269B000D1ABB6 /* ShoppingListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC26DA3200269B000D1ABB6 /* ShoppingListService.swift */; };
+		DCC26DA620026A1900D1ABB6 /* ShoppingListServiceImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC26DA520026A1900D1ABB6 /* ShoppingListServiceImp.swift */; };
+		DCC26DA820026DA200D1ABB6 /* ProductRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC26DA720026DA200D1ABB6 /* ProductRepository.swift */; };
+		DCC26DAA20026DB200D1ABB6 /* ProductRepositoryImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC26DA920026DB200D1ABB6 /* ProductRepositoryImp.swift */; };
+		DCC26DAD20026DD100D1ABB6 /* ShoppingListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC26DAC20026DD100D1ABB6 /* ShoppingListRepository.swift */; };
+		DCC26DAF20026DE800D1ABB6 /* ShoppingListRepositoryImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC26DAE20026DE800D1ABB6 /* ShoppingListRepositoryImp.swift */; };
+		DCE8AE531FF51CC10066C98D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE8AE521FF51CC10066C98D /* Assets.xcassets */; };
+		DCE8AE611FF52C110066C98D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8AE601FF52C110066C98D /* AppDelegate.swift */; };
+		DCE8AE661FF52FB90066C98D /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8AE651FF52FB90066C98D /* MainTabBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36350678041A8A7FE20A4B86 /* Pods-EdaDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdaDev.release.xcconfig"; path = "Pods/Target Support Files/Pods-EdaDev/Pods-EdaDev.release.xcconfig"; sourceTree = "<group>"; };
+		886A71DED28A64E4D3327794 /* Pods_EdaDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EdaDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC01B1EA1FFD51BA008BEB9E /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-RU"; path = "ru-RU.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DC01B1F51FFD52A8008BEB9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC01B1F91FFD52B9008BEB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC11E4EE2000E12400921AC9 /* ShoppingListConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListConfigurator.swift; sourceTree = "<group>"; };
+		DC11E4EF2000E12400921AC9 /* ShoppingListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListInteractor.swift; sourceTree = "<group>"; };
+		DC11E4F02000E12400921AC9 /* ShoppingListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListPresenter.swift; sourceTree = "<group>"; };
+		DC11E4F12000E12400921AC9 /* ShoppingListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListRouter.swift; sourceTree = "<group>"; };
+		DC11E4F82000E18900921AC9 /* ShoppingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
+		DC11E5002000E2C400921AC9 /* ShoppingListInteractorIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListInteractorIO.swift; sourceTree = "<group>"; };
+		DC11E5022000EB4400921AC9 /* ShoppingListViewIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListViewIO.swift; sourceTree = "<group>"; };
+		DC11E5042000F77100921AC9 /* ShoppingListRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListRouterInput.swift; sourceTree = "<group>"; };
+		DC11E5082001090B00921AC9 /* ProductsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsService.swift; sourceTree = "<group>"; };
+		DC11E50A2001092E00921AC9 /* ProductServiceImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductServiceImp.swift; sourceTree = "<group>"; };
+		DC6622F71FF534BD0084B0EC /* EdaDev-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EdaDev-Bridging-Header.h"; sourceTree = "<group>"; };
+		DC8AA3321FFEE11600A44FE5 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		DCAF4ED720002A2500852D60 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		DCAF4EDB200037FD00852D60 /* AddProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductCell.swift; sourceTree = "<group>"; };
+		DCAF4EDD2000382400852D60 /* ShoppingProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingProductCell.swift; sourceTree = "<group>"; };
+		DCAF4EF02000DA5800852D60 /* SearchProductConfigurator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchProductConfigurator.h; sourceTree = "<group>"; };
+		DCAF4EF12000DA5800852D60 /* SearchProductConfigurator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchProductConfigurator.m; sourceTree = "<group>"; };
+		DCAF4EF22000DA5800852D60 /* SearchProductInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchProductInteractor.h; sourceTree = "<group>"; };
+		DCAF4EF32000DA5800852D60 /* SearchProductInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchProductInteractor.m; sourceTree = "<group>"; };
+		DCAF4EF42000DA5800852D60 /* SearchProductPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchProductPresenter.h; sourceTree = "<group>"; };
+		DCAF4EF52000DA5800852D60 /* SearchProductPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchProductPresenter.m; sourceTree = "<group>"; };
+		DCAF4EF62000DA5800852D60 /* SearchProductRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchProductRouter.h; sourceTree = "<group>"; };
+		DCAF4EF72000DA5800852D60 /* SearchProductRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchProductRouter.m; sourceTree = "<group>"; };
+		DCAF4EFF2000DC1B00852D60 /* SearchProductViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchProductViewController.h; sourceTree = "<group>"; };
+		DCAF4F002000DC1B00852D60 /* SearchProductViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchProductViewController.m; sourceTree = "<group>"; };
+		DCC26D9E2002525800D1ABB6 /* RealmRepositoriesProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmRepositoriesProtocols.swift; sourceTree = "<group>"; };
+		DCC26DA12002688300D1ABB6 /* ProductRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRealm.swift; sourceTree = "<group>"; };
+		DCC26DA3200269B000D1ABB6 /* ShoppingListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListService.swift; sourceTree = "<group>"; };
+		DCC26DA520026A1900D1ABB6 /* ShoppingListServiceImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListServiceImp.swift; sourceTree = "<group>"; };
+		DCC26DA720026DA200D1ABB6 /* ProductRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRepository.swift; sourceTree = "<group>"; };
+		DCC26DA920026DB200D1ABB6 /* ProductRepositoryImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRepositoryImp.swift; sourceTree = "<group>"; };
+		DCC26DAC20026DD100D1ABB6 /* ShoppingListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListRepository.swift; sourceTree = "<group>"; };
+		DCC26DAE20026DE800D1ABB6 /* ShoppingListRepositoryImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListRepositoryImp.swift; sourceTree = "<group>"; };
+		DCE8AE461FF51CC10066C98D /* EdaDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdaDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE8AE521FF51CC10066C98D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCE8AE571FF51CC10066C98D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE8AE601FF52C110066C98D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCE8AE651FF52FB90066C98D /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		E3C6CE5595606CEEEE3631F1 /* Pods-EdaDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdaDev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EdaDev/Pods-EdaDev.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCE8AE431FF51CC10066C98D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97E8949F74825AFC998527B /* Pods_EdaDev.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C7D6958A970D0D841306469 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				886A71DED28A64E4D3327794 /* Pods_EdaDev.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC01B1FD1FFD56A6008BEB9E /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				DCC26DA02002681000D1ABB6 /* RealmObject */,
+				DC8AA3321FFEE11600A44FE5 /* Product.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		DC11E4DE2000E04B00921AC9 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF4EF02000DA5800852D60 /* SearchProductConfigurator.h */,
+				DCAF4EF12000DA5800852D60 /* SearchProductConfigurator.m */,
+			);
+			name = Configurator;
+			sourceTree = "<group>";
+		};
+		DC11E4DF2000E05C00921AC9 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF4EF22000DA5800852D60 /* SearchProductInteractor.h */,
+				DCAF4EF32000DA5800852D60 /* SearchProductInteractor.m */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		DC11E4E02000E08300921AC9 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF4EF42000DA5800852D60 /* SearchProductPresenter.h */,
+				DCAF4EF52000DA5800852D60 /* SearchProductPresenter.m */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		DC11E4E12000E09200921AC9 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF4EF62000DA5800852D60 /* SearchProductRouter.h */,
+				DCAF4EF72000DA5800852D60 /* SearchProductRouter.m */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		DC11E4E22000E09C00921AC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF4EFF2000DC1B00852D60 /* SearchProductViewController.h */,
+				DCAF4F002000DC1B00852D60 /* SearchProductViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DC11E4FB2000E25200921AC9 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				DC11E4EE2000E12400921AC9 /* ShoppingListConfigurator.swift */,
+			);
+			name = Configurator;
+			sourceTree = "<group>";
+		};
+		DC11E4FC2000E26200921AC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC11E4F82000E18900921AC9 /* ShoppingListViewController.swift */,
+				DC11E5022000EB4400921AC9 /* ShoppingListViewIO.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DC11E4FD2000E26700921AC9 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DC11E4EF2000E12400921AC9 /* ShoppingListInteractor.swift */,
+				DC11E5002000E2C400921AC9 /* ShoppingListInteractorIO.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		DC11E4FE2000E27000921AC9 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DC11E4F02000E12400921AC9 /* ShoppingListPresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		DC11E4FF2000E27700921AC9 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DC11E4F12000E12400921AC9 /* ShoppingListRouter.swift */,
+				DC11E5042000F77100921AC9 /* ShoppingListRouterInput.swift */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		DC11E506200108E700921AC9 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				DCC26DA920026DB200D1ABB6 /* ProductRepositoryImp.swift */,
+				DCC26DAE20026DE800D1ABB6 /* ShoppingListRepositoryImp.swift */,
+			);
+			name = Implementations;
+			sourceTree = "<group>";
+		};
+		DC11E507200108EB00921AC9 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				DC11E50A2001092E00921AC9 /* ProductServiceImp.swift */,
+				DCC26DA520026A1900D1ABB6 /* ShoppingListServiceImp.swift */,
+			);
+			name = Implementations;
+			sourceTree = "<group>";
+		};
+		DC6622F81FF535B90084B0EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC6622F71FF534BD0084B0EC /* EdaDev-Bridging-Header.h */,
+				DC01B1F81FFD52B3008BEB9E /* LaunchScreen.storyboard */,
+				DCE8AE521FF51CC10066C98D /* Assets.xcassets */,
+				DCE8AE571FF51CC10066C98D /* Info.plist */,
+				DC01B1E91FFD51B8008BEB9E /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC6622F91FF536030084B0EC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DCE8AE601FF52C110066C98D /* AppDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		DC8AA3341FFF967600A44FE5 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				DC8AA3361FFFADBE00A44FE5 /* MainTabBar */,
+				DC8AA3371FFFADCE00A44FE5 /* Search */,
+				DC8AA3381FFFAE3800A44FE5 /* ShoppingList */,
+				DCAF4ED6200029F800852D60 /* Cells */,
+			);
+			name = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		DC8AA3361FFFADBE00A44FE5 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				DCE8AE651FF52FB90066C98D /* MainTabBarController.swift */,
+			);
+			name = MainTabBar;
+			sourceTree = "<group>";
+		};
+		DC8AA3371FFFADCE00A44FE5 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				DC11E4DE2000E04B00921AC9 /* Configurator */,
+				DC11E4E22000E09C00921AC9 /* View */,
+				DC11E4DF2000E05C00921AC9 /* Interactor */,
+				DC11E4E02000E08300921AC9 /* Presenter */,
+				DC11E4E12000E09200921AC9 /* Router */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		DC8AA3381FFFAE3800A44FE5 /* ShoppingList */ = {
+			isa = PBXGroup;
+			children = (
+				DC11E4FB2000E25200921AC9 /* Configurator */,
+				DC11E4FC2000E26200921AC9 /* View */,
+				DC11E4FD2000E26700921AC9 /* Interactor */,
+				DC11E4FE2000E27000921AC9 /* Presenter */,
+				DC11E4FF2000E27700921AC9 /* Router */,
+			);
+			name = ShoppingList;
+			sourceTree = "<group>";
+		};
+		DC8AA3391FFFAFC100A44FE5 /* BusinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+				DC01B1FD1FFD56A6008BEB9E /* Entities */,
+				DC8AA33B1FFFAFD300A44FE5 /* Repositories */,
+				DC8AA33A1FFFAFCC00A44FE5 /* Services */,
+			);
+			name = BusinessLogicLayer;
+			sourceTree = "<group>";
+		};
+		DC8AA33A1FFFAFCC00A44FE5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DC11E507200108EB00921AC9 /* Implementations */,
+				DC11E5082001090B00921AC9 /* ProductsService.swift */,
+				DCC26DA3200269B000D1ABB6 /* ShoppingListService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		DC8AA33B1FFFAFD300A44FE5 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				DC11E506200108E700921AC9 /* Implementations */,
+				DCC26DA720026DA200D1ABB6 /* ProductRepository.swift */,
+				DCC26DAC20026DD100D1ABB6 /* ShoppingListRepository.swift */,
+				DCC26D9E2002525800D1ABB6 /* RealmRepositoriesProtocols.swift */,
+			);
+			name = Repositories;
+			sourceTree = "<group>";
+		};
+		DCAF4ED6200029F800852D60 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF4ED720002A2500852D60 /* ProductCell.swift */,
+				DCAF4EDB200037FD00852D60 /* AddProductCell.swift */,
+				DCAF4EDD2000382400852D60 /* ShoppingProductCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		DCC26DA02002681000D1ABB6 /* RealmObject */ = {
+			isa = PBXGroup;
+			children = (
+				DCC26DA12002688300D1ABB6 /* ProductRealm.swift */,
+			);
+			name = RealmObject;
+			sourceTree = "<group>";
+		};
+		DCE8AE3D1FF51CC00066C98D = {
+			isa = PBXGroup;
+			children = (
+				DCE8AE481FF51CC10066C98D /* EdaDev */,
+				DCE8AE471FF51CC10066C98D /* Products */,
+				F921DA1AE1452E412E290E89 /* Pods */,
+				9C7D6958A970D0D841306469 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCE8AE471FF51CC10066C98D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCE8AE461FF51CC10066C98D /* EdaDev.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCE8AE481FF51CC10066C98D /* EdaDev */ = {
+			isa = PBXGroup;
+			children = (
+				DC6622F91FF536030084B0EC /* App */,
+				DC8AA3391FFFAFC100A44FE5 /* BusinessLogicLayer */,
+				DC8AA3341FFF967600A44FE5 /* PresentationLayer */,
+				DC6622F81FF535B90084B0EC /* Supporting Files */,
+			);
+			path = EdaDev;
+			sourceTree = "<group>";
+		};
+		F921DA1AE1452E412E290E89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3C6CE5595606CEEEE3631F1 /* Pods-EdaDev.debug.xcconfig */,
+				36350678041A8A7FE20A4B86 /* Pods-EdaDev.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCE8AE451FF51CC10066C98D /* EdaDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE8AE5C1FF51CC10066C98D /* Build configuration list for PBXNativeTarget "EdaDev" */;
+			buildPhases = (
+				8EE2E382D7F83E77353D46C4 /* [CP] Check Pods Manifest.lock */,
+				DCE8AE421FF51CC10066C98D /* Sources */,
+				DCE8AE431FF51CC10066C98D /* Frameworks */,
+				DCE8AE441FF51CC10066C98D /* Resources */,
+				AC830419EA54AB0B7502592F /* [CP] Embed Pods Frameworks */,
+				C5E48C60478563E7A3A955C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EdaDev;
+			productName = EdaDev;
+			productReference = DCE8AE461FF51CC10066C98D /* EdaDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCE8AE3E1FF51CC00066C98D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Юрий";
+				TargetAttributes = {
+					DCE8AE451FF51CC10066C98D = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DCE8AE411FF51CC00066C98D /* Build configuration list for PBXProject "EdaDev" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"ru-RU",
+			);
+			mainGroup = DCE8AE3D1FF51CC00066C98D;
+			productRefGroup = DCE8AE471FF51CC10066C98D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCE8AE451FF51CC10066C98D /* EdaDev */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCE8AE441FF51CC10066C98D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC01B1F61FFD52B3008BEB9E /* LaunchScreen.storyboard in Resources */,
+				DC01B1E71FFD51B8008BEB9E /* Localizable.strings in Resources */,
+				DCE8AE531FF51CC10066C98D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EE2E382D7F83E77353D46C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EdaDev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC830419EA54AB0B7502592F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EdaDev/Pods-EdaDev-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EdaDev/Pods-EdaDev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5E48C60478563E7A3A955C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EdaDev/Pods-EdaDev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCE8AE421FF51CC10066C98D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC11E50B2001092E00921AC9 /* ProductServiceImp.swift in Sources */,
+				DCC26DA4200269B000D1ABB6 /* ShoppingListService.swift in Sources */,
+				DC11E4F32000E12400921AC9 /* ShoppingListConfigurator.swift in Sources */,
+				DC11E4FA2000E18900921AC9 /* ShoppingListViewController.swift in Sources */,
+				DC11E4F62000E12400921AC9 /* ShoppingListRouter.swift in Sources */,
+				DCC26DAF20026DE800D1ABB6 /* ShoppingListRepositoryImp.swift in Sources */,
+				DC11E4F52000E12400921AC9 /* ShoppingListPresenter.swift in Sources */,
+				DCAF4EFC2000DA5800852D60 /* SearchProductRouter.m in Sources */,
+				DC11E5092001090B00921AC9 /* ProductsService.swift in Sources */,
+				DCAF4F022000DC1B00852D60 /* SearchProductViewController.m in Sources */,
+				DC11E5032000EB4400921AC9 /* ShoppingListViewIO.swift in Sources */,
+				DC11E5012000E2C400921AC9 /* ShoppingListInteractorIO.swift in Sources */,
+				DCAF4EDE2000382400852D60 /* ShoppingProductCell.swift in Sources */,
+				DCAF4EDC200037FD00852D60 /* AddProductCell.swift in Sources */,
+				DCC26DA820026DA200D1ABB6 /* ProductRepository.swift in Sources */,
+				DCAF4EFA2000DA5800852D60 /* SearchProductInteractor.m in Sources */,
+				DCC26DAA20026DB200D1ABB6 /* ProductRepositoryImp.swift in Sources */,
+				DCAF4EF92000DA5800852D60 /* SearchProductConfigurator.m in Sources */,
+				DC8AA3331FFEE11600A44FE5 /* Product.swift in Sources */,
+				DCAF4ED820002A2500852D60 /* ProductCell.swift in Sources */,
+				DC11E4F42000E12400921AC9 /* ShoppingListInteractor.swift in Sources */,
+				DCC26D9F2002525800D1ABB6 /* RealmRepositoriesProtocols.swift in Sources */,
+				DC11E5052000F77100921AC9 /* ShoppingListRouterInput.swift in Sources */,
+				DCC26DA22002688300D1ABB6 /* ProductRealm.swift in Sources */,
+				DCC26DAD20026DD100D1ABB6 /* ShoppingListRepository.swift in Sources */,
+				DCC26DA620026A1900D1ABB6 /* ShoppingListServiceImp.swift in Sources */,
+				DCE8AE611FF52C110066C98D /* AppDelegate.swift in Sources */,
+				DCAF4EFB2000DA5800852D60 /* SearchProductPresenter.m in Sources */,
+				DCE8AE661FF52FB90066C98D /* MainTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC01B1E91FFD51B8008BEB9E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC01B1EA1FFD51BA008BEB9E /* ru-RU */,
+				DC01B1F51FFD52A8008BEB9E /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		DC01B1F81FFD52B3008BEB9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC01B1F91FFD52B9008BEB9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCE8AE5A1FF51CC10066C98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCE8AE5B1FF51CC10066C98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCE8AE5D1FF51CC10066C98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3C6CE5595606CEEEE3631F1 /* Pods-EdaDev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N37843338H;
+				INFOPLIST_FILE = EdaDev/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.llo8.EdaDev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EdaDev/EdaDev-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCE8AE5E1FF51CC10066C98D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36350678041A8A7FE20A4B86 /* Pods-EdaDev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N37843338H;
+				INFOPLIST_FILE = EdaDev/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.llo8.EdaDev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EdaDev/EdaDev-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCE8AE411FF51CC00066C98D /* Build configuration list for PBXProject "EdaDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE8AE5A1FF51CC10066C98D /* Debug */,
+				DCE8AE5B1FF51CC10066C98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE8AE5C1FF51CC10066C98D /* Build configuration list for PBXNativeTarget "EdaDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE8AE5D1FF51CC10066C98D /* Debug */,
+				DCE8AE5E1FF51CC10066C98D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCE8AE3E1FF51CC00066C98D /* Project object */;
+}

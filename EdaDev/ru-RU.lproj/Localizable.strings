@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  EdaDev
+
+  Created by Юрий on 01.01.18.
+  Copyright © 2018 Юрий. All rights reserved.
+*/
+
+"search_tab" = "Поиск";
+"bag_tab" = "Список покупок";
+"loading_status" = "Загрузка данных";
